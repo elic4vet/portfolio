@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5801dc5e86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Introduction -->
+
+      <!--  <div class="container">
+        <div class="row">
+          <div class="column left">
+            <span class="dot" style="background: #abf0ed"></span>
+            <span class="dot" style="background: #ffa7cc"></span>
+            <span class="dot" style="background: #474da2"></span>
+          </div>
+          <div class="column middle">
+            <input type="text" />
+          </div>
+          <div class="column right">
+            <div style="float: right">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div> 
+       </div>-->
+
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hi <span class="emoji"> 👋</span> I am
+          <strong> Elisabeth Erkekoglou </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          Front-end Developer
+        </p>
+        <img src="img/eli.dev.jpg" class="intro__img" />
+      </section>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link"> Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link"> My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link"> About me </a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link"> My work </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>Responsive Website Design</p>
+          <p>Website Development</p>
+          <p>SEO (Search Engine Optimisation)</p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>Logo Design</p>
+          <p>App Design</p>
+          <p>eCommerce Solution</p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>Content Writing</p>
+          <p>Social Media Integration</p>
+          <p>Wordpress Website Security</p>
+          <p></p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about"></p>
+
+      <div class="about-me__body">
+        <p>
+          I am a passionate Frontend Developer with over 7 years of experience
+          in the healthcare industry. Although my journey began with a deep
+          fascination for technology in my childhood, I initially pursued a
+          different career path. I immersed myself in the study of French
+          language and literature, both in Greece and France, and eventually
+          settled in Germany, where I continue to practice my French language
+          skills as my work is primarily focused on the French market.
+        </p>
+        <p>
+          Having spent the last 7+ years in customer service and healthcare
+          logistics, I now aspire to realize my childhood dream of working in
+          the tech industry. Throughout my experience working with complex
+          systems, I have encountered and resolved various challenges. These
+          experiences have fueled my desire to transition to the the other side,
+          where the dev magic happens..🧙‍♀️🪄
+        </p>
+      </div>
+
+      <img src="img/elisabeth.jpg" class="about-me__img" />
+    </section>
+
+    <!-- My work -->
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="https://famous-daffodil-e8cf06.netlify.app/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/addtocart.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/weather2.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/dictionary_app.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/acropolis.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/weather1.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 07 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 08 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 09 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="mailto:elisabeth.erkekoglou@gmail.com" class="footer__link"
+        >elisabeth.erkekoglou@gmail.com
+      </a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://codepen.io"
+            target="_blank"
+          >
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://dribbble.com/elic4vet"
+            target="_blank"
+          >
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/eerkekoglou/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/elic4vet"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
